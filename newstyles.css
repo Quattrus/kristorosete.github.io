@@ -50,17 +50,35 @@ html{
         padding:0;
         margin:0;
     }
-    .about-me-header, .resume-summary, .project-video{
+    .about-me-header, .resume-summary, .project-video, .resume-blocks{
         margin-left:0;
         margin-right:0;
     }
-    .projects-section .about-me-paragraph>p, .projects-section .resume-summary>p{
+    .projects-section .resume-blocks .about-me-paragraph>p, .projects-section .resume-blocks .resume-summary>p{
         margin-left:0;
         margin-right:0;
         padding:0;
         display:flex;
         flex-direction:unset;
     }
+}
+
+.resume-blocks{
+    top:0;
+    margin-top:30px;
+    padding-top:30px;
+    padding-bottom:30px;
+    background-color:rgba(21, 19,23,0.475);
+    box-shadow:1px 1px 15px rgba(0,0,0,0.32);
+    width:100%;
+    max-width:100%;
+    object-fit:contain;
+    border-radius:15px;
+    transition:transform 0.3s ease-out;
+}
+
+.resume-blocks:hover{
+    transform:scale(1.1);
 }
 
 body{
@@ -156,7 +174,7 @@ a{
     margin-bottom:10px;
 }
 
-.resume-body>ul>li>a:hover{
+.resume-body>.resume-blocks>ul>li>a:hover{
     color:var(--main-red);
 }
 
