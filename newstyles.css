@@ -11,6 +11,7 @@
 *{
     margin:0;
     padding:0;
+    box-sizing:border-box;
 }
 
 *,*::before, *::after{
@@ -38,19 +39,27 @@ html{
 @media(max-width:28.75em){
     html{
         font-size:50%;
-        margin:auto;
+        margin:0;
+        padding:0;
+    }
+    body{
+        padding:0;
+        margin:0;
     }
     .projects-section{
-        padding:0%;
+        padding:0;
+        margin:0;
     }
     .about-me-header, .resume-summary, .project-video{
-        margin-left:0%;
-        margin-right:0%;
+        margin-left:0;
+        margin-right:0;
     }
-    .about-me-header>p, .resume-summary>p{
+    .projects-section .about-me-paragraph>p, .projects-section .resume-summary>p{
+        margin-left:0;
+        margin-right:0;
+        padding:0;
         display:flex;
         flex-direction:unset;
-        text-align:center;
     }
 }
 
