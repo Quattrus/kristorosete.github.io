@@ -33,7 +33,20 @@ html{
 }
 @media(max-width:28.75em){
     html{
-        font-size:55%;
+        font-size:50%;
+        margin:auto;
+    }
+    .projects-section{
+        padding:0%;
+    }
+    .about-me-header{
+        margin-left:0%;
+        margin-right:0%;
+    }
+    .about-me-header>p{
+        display:flex;
+        flex-direction:unset;
+        text-align:center;
     }
 }
 body{
