@@ -2,6 +2,8 @@ const welcome = [
     "Hi, my name is Christo",
     "Welcome to my Portfolio",
     "Exploring the World of Games and Art",
+    "Where Imagination Takes Form",
+    "A Glimpse into My Work"
 ];
 
 let currentWelcomeIndex = 1;
