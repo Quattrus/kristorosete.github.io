@@ -61,6 +61,10 @@ html{
         display:flex;
         flex-direction:unset;
     }
+    .resume-blocks{
+        padding-left:30px;
+        padding-right:30px;
+    }
 }
 
 .resume-blocks{
