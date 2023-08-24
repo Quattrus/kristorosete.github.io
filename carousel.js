@@ -58,6 +58,7 @@ const projects = [
 }
 ];
 
+const totalProjects = projects.length;
 let currentIndex = 0;
 
 const container = document.querySelector('.carousel-container');
@@ -70,6 +71,7 @@ function updateCarousel() {
             <p>${projects[currentIndex].description}</p>
             <p>${projects[currentIndex].completion}</p>
         </div>
+        <div class="numbering">${currentIndex + 1}/${totalProjects}</div>
     `;
 }
 
