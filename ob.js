@@ -8,10 +8,10 @@ var obfuscatedNumber = ['+','6','3','9','2','7','7','6','7','1','4','3','9'];
 var number = obfuscatedNumber.join('');
 
 var emailLink = document.getElementById('email-link');
-emailLink.innerHTML = '<a href="mailto:' + email + '"><i class="fas fa-at"></i>Send a mail</a>';
+emailLink.innerHTML = '<a href="mailto:' + email + '"><i class="fas fa-at"></i> Send a mail</a>';
 
 var githubLink = document.getElementById("github-link");
-githubLink.innerHTML = '<a href="' + github + '"><i class="fab fa-github"></i>Github</a>';
+githubLink.innerHTML = '<a href="' + github + '"><i class="fab fa-github"></i> Github</a>';
 
 var numberLink = document.getElementById('number-link');
-numberLink.innerHTML = '<a href="tel:' + number + '"><i class="fas fa-mobile-alt"></i>Call me</a>';
+numberLink.innerHTML = '<a href="tel:' + number + '"><i class="fas fa-mobile-alt"></i> Call me</a>';
