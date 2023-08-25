@@ -65,7 +65,6 @@ html{
         padding-left:30px;
         padding-right:30px;
     }
-    
 }
 
 .resume-blocks, .about-me-block{
@@ -214,6 +213,13 @@ a{
     align-items:center;
     gap:10px;
     padding:50px;
+}
+
+.project-title p{
+    max-width: 500px;
+    margin: 0 auto;
+    padding:10px;
+    box-sizing: border-box;
 }
 
 .project-video{

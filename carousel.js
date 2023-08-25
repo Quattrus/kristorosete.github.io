@@ -20,19 +20,19 @@ const projects = [
 {
     videoSrc: "https://www.youtube.com/embed/IkX5INHEugM",
     title: "Prototype True First Person",
-    description: "A prototype true first person game that I was exploring in Unity. I wanted to learn how to make a true first person controller. I applied things that I learned such as inverse kinematics and animation blending into the character's animation.",
+    description: "A prototype true first person game that I was exploring in Unity. I wanted to learn how to make a true first person controller.",
     completion: "Year Started 2022 | Year Finished 2022",
 },
 {
     videoSrc: "https://www.youtube.com/embed/6AG4WWr6zW8",
     title: "A WIP game that I am working on in Godot Engine",
-    description: "A standard pixel platformer where I try to learn 2D game programmming. This is my first game using the Godot Engine and I wanted to incorporate standard platformer controls.",
+    description: "A standard pixel platformer where I try to learn 2D game programming. This is my first game using the Godot Engine and I wanted to incorporate standard platformer controls.",
     completion : "Year Started 2022 | Year Finished TBD",
 },
 {
     videoSrc: "https://www.youtube.com/embed/3nXhtWLgAuM",
     title: "A simple experiment on pathfinding using Unity.",
-    description: "I tried learning pathfinding and basic AI programmming using Unity. I wanted to experiment with the pathfinding capabilities of Unity and to use my experience to create games with point and click mechanics in the future.",
+    description: "I tried learning pathfinding and basic AI programming using Unity. I wanted to learn pathfinding and to use my experience to create games with point and click mechanics in the future.",
     completion: "Year Started 2022 | Year Finished 2022",
 },
 
