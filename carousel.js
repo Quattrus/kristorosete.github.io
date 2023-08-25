@@ -1,11 +1,24 @@
 const projects = [
 //Project data goes here
-{
-    videoSrc: "https://www.youtube.com/embed/eAtGzF9ZioI",
-    title: "First Person Game for Unity Pathways Course",
-    description: "A first person game that I made for the Unity Pathways Course. I was practicing how to create a dynamic menu screen and also wanted to start practicing my skills in creating first person experiences.",
-    completion: "Year Started 2022 | Year Finished 2022",
 
+{
+	videoSrc: "https://www.youtube.com/embed/1WTZRq0XCqw?si=hufvDm7cpkgml312",
+	title: "Shooter",
+	description: "A TPS shooter that I am currently working on in Unreal Engine 5.2."
+	completion: "Year Started 2023 | TBD"
+},
+
+{
+	videoSrc: "https://www.youtube.com/embed/P6xhvsHf0Ag?si=fj9Ek2z9YMmIe5Xz",
+	title: "Tanks",
+	description: "A project that I made using Unreal Engine to practice CPP programming and general level design. I was able to learn how to create a simple character controller and be able to shoot projectiles."
+	completion: "Year started 2023 | Year Finished 2023",
+},
+{
+	videoSrc: "https://www.youtube.com/embed/SJN3iQQD9lQ?si=1HQJMO6EwePdEjy0",
+	title: "Dungeon",
+	description: "A simple interactive dungeon game that I made using Unreal Engine 5. I was trying to learn CPP in Unreal while also getting used to the Unreal Engine Interface.",
+	completion: "Year Started 2023 | Year Finished 2023",
 },
 {
     videoSrc: "https://www.youtube.com/embed/IkX5INHEugM",
@@ -24,6 +37,14 @@ const projects = [
     title: "A simple experiment on pathfinding using Unity.",
     description: "I tried learning pathfinding and basic AI programmming using Unity. I wanted to experiment with the pathfinding capabilities of Unity and to use my experience to create games with point and click mechanics in the future.",
     completion: "Year Started 2022 | Year Finished 2022",
+},
+
+{
+    videoSrc: "https://www.youtube.com/embed/eAtGzF9ZioI",
+    title: "First Person Game for Unity Pathways Course",
+    description: "A first person game that I made for the Unity Pathways Course. I was practicing how to create a dynamic menu screen and also wanted to start practicing my skills in creating first person experiences.",
+    completion: "Year Started 2022 | Year Finished 2022",
+
 },
 
 {
