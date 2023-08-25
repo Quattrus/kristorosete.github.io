@@ -4,14 +4,14 @@ const projects = [
 {
 	videoSrc: "https://www.youtube.com/embed/1WTZRq0XCqw?si=hufvDm7cpkgml312",
 	title: "Shooter",
-	description: "A TPS shooter that I am currently working on in Unreal Engine 5.2.",
+	description: "A Third Person shooter that I am currently working on in Unreal Engine 5.2.",
 	completion: "Year Started 2023 | TBD",
 },
 
 {
 	videoSrc: "https://www.youtube.com/embed/P6xhvsHf0Ag?si=fj9Ek2z9YMmIe5Xz",
 	title: "Tanks",
-	description: "A project that I made using Unreal Engine to practice CPP programming and general level design. I was able to learn how to create a simple character controller and be able to shoot projectiles."
+	description: "A project that I made using Unreal Engine to practice CPP programming and general level design. I was able to learn how to create a simple character controller and be able to shoot projectiles.",
 	completion: "Year started 2023 | Year Finished 2023",
 },
 {
@@ -87,7 +87,7 @@ const container = document.querySelector('.carousel-container');
 function updateCarousel() {
     container.innerHTML = `
         <div class="project-title">
-            <iframe src="${projects[currentIndex].videoSrc}" width="100%" height="400" frameborder="0" allowfullscreen class="project-video"></iframe>
+            <iframe src="${projects[currentIndex].videoSrc}" width="500" height="315" frameborder="0" allowfullscreen class="project-video"></iframe>
             <p>${projects[currentIndex].title}</p>
             <p>${projects[currentIndex].description}</p>
             <p>${projects[currentIndex].completion}</p>
