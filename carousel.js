@@ -1,13 +1,10 @@
 const projects = [
-//Project data goes here
-
 {
 	videoSrc: "https://www.youtube.com/embed/1WTZRq0XCqw?si=hufvDm7cpkgml312",
 	title: "Shooter",
 	description: "A Third Person shooter that I am currently working on in Unreal Engine 5.2.",
 	completion: "Year Started 2023 | TBD",
 },
-
 {
 	videoSrc: "https://www.youtube.com/embed/P6xhvsHf0Ag?si=fj9Ek2z9YMmIe5Xz",
 	title: "Tanks",
