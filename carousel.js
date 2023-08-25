@@ -4,8 +4,8 @@ const projects = [
 {
 	videoSrc: "https://www.youtube.com/embed/1WTZRq0XCqw?si=hufvDm7cpkgml312",
 	title: "Shooter",
-	description: "A TPS shooter that I am currently working on in Unreal Engine 5.2."
-	completion: "Year Started 2023 | TBD"
+	description: "A TPS shooter that I am currently working on in Unreal Engine 5.2.",
+	completion: "Year Started 2023 | TBD",
 },
 
 {
